@@ -12,5 +12,5 @@ This project is in development.
 
 ### rest example
 ```bash
-http://localhost:5000/repayment/schedule?pv=25000&rate=5.86&fv=8500&nper=24&payment_holiday=2,3,4&extended=false&accrue_interest=false
+{host}/repayment/schedule?pv=25000&rate=5.86&fv=8500&nper=24&payment_holiday=2,3,4&extended=false&accrue_interest=false
 ```
