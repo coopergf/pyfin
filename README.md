@@ -10,6 +10,11 @@ This project is in development.
 * make each payment holiday period (month) be configurable to allow interest to be accrued
 * allow for different rates / periods other than annual / twelve
 
+### run tests
+```bash
+python -m pytest tests/
+```
+
 ### run example
 ```bash
 python example_repayment_schedule.py | jq
@@ -20,7 +25,7 @@ python example_repayment_schedule.py | jq
 python example_restapi.py
 ```
 
-### rest example
+### call to api example
 ```bash
 http://localhost:5000/repayment/schedule?present_value=25000&future_value=5000&rate=5.56&number_of_payments=24&payment_holiday=2,3,4&accrue_interest=true&extended=false
 ```
