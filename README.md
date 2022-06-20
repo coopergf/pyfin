@@ -24,3 +24,4 @@ python example_repayment_schedule.py | jq
 ```bash
 http://localhost:5000/repayment/schedule?present_value=25000&future_value=5000&rate=5.56&number_of_payments=24&payment_holiday=2,3,4&accrue_interest=true&extended=false
 ```
+
