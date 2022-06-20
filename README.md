@@ -17,7 +17,7 @@ python example_repayment_schedule.py | jq
 
 ### run api example
 ```bash
-python example_repayment_schedule.py | jq
+python example_restapi.py
 ```
 
 ### rest example
